@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Build -->
+  <project path="build/make" name="build" groups="pdk" remote="cardinal" >
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="cardinal" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="art" name="art" remote="cardinal" />
+  <project path="bionic" name="bionic" groups="pdk" remote="cardinal" />
+  <project path="manifest" name="manifest" remote="cardinal" />
+
+  <!-- Bootable -->
+  <project path="bootable/recovery" name="bootable_recovery" remote="cardinal" />
+
+  <!-- Device -->
+  <project path="device/cardinal/sepolicy" name="device_cardinal_sepolicy" remote="cardinal" />
+
+  <!-- External -->
+  <project path="external/libnl" name="external_libnl" groups="pdk" remote="cardinal" />
+  <project path="external/selinux" name="external_selinux" remote="cardinal" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="cardinal" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/base" name="frameworks_base" remote="cardinal" />
+  <project path="frameworks/native" name="frameworks_native" remote="cardinal" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="cardinal" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="cardinal" />
+
+  <!-- Hardware -->
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="cardinal" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="cardinal" />
+
+  <!-- Keepers -->
+  <project path="cardinal-keepers" name="cardinal-keepers" remote="cardinal-devices" />
+
+  <!-- Packages -->
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="cardinal" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cardinal" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="cardinal" />
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="cardinal" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="cardinal" />
+
+  <!-- System -->
+  <project path="system/core" name="system_core" remote="cardinal" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="cardinal" />
+  <project path="system/update_engine" name="system_update_engine" remote="cardinal" />
+
+  <!-- Vendor -->
+  <project path="vendor/cardinal" name="vendor_cardinal" remote="cardinal" />
+
+</manifest>
