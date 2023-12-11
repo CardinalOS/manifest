@@ -44,6 +44,7 @@
   <project path="cardinal-keepers" name="cardinal-keepers" remote="cardinal-devices" />
 
   <!-- Packages -->
+  <project path="packages/apps/Cardinalery" name="packages_apps_Cardinalery" remote="cardinal" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="cardinal" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cardinal" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="cardinal" />
