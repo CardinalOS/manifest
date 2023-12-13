@@ -95,6 +95,9 @@
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/qcom/gps" />
 
+  <!-- Kernel -->
+  <remove-project name="kernel/configs" />
+
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/Launcher3" />
