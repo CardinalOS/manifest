@@ -92,6 +92,7 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="cardinal" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="cardinal" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="cardinal" />
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="cardinal" />
 
   <!-- System -->
   <project path="system/core" name="system_core" remote="cardinal" />
