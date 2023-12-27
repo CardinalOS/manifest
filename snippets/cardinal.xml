@@ -88,6 +88,7 @@
   <!-- Packages -->
   <project path="packages/apps/Cardinalery" name="packages_apps_Cardinalery" remote="cardinal" />
   <project path="packages/apps/CardinalLauncher" name="packages_apps_CardinalLauncher" remote="cardinal" />
+  <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="cardinal-gitlab" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cardinal" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="cardinal" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="cardinal" />
