@@ -57,5 +57,6 @@
 
   <!-- Vendor -->
   <project path="vendor/cardinal" name="vendor_cardinal" remote="cardinal" />
+  <project path="vendor/partner_gms" name="vendor_partner-gms" remote="cardinal-gitlab" clone-depth="1" />
 
 </manifest>
